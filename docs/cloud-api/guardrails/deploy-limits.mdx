@@ -23,7 +23,7 @@ Returns the deployment limits for the authenticated user based on their billing 
 </ResponseField>
 
 <ResponseField name="allowed_tiers" type="array">
-  Machine tiers available on the current plan (e.g. `["starter", "standard"]`)
+  Machine tiers available on the current plan (e.g. `["starter", "performance"]`)
 </ResponseField>
 
 <ResponseField name="plan_name" type="string">
@@ -75,7 +75,7 @@ console.log(`Remaining slots: ${remaining}`);
 {
   "max_apps": 10,
   "user_app_count": 3,
-  "allowed_tiers": ["starter", "standard", "performance"],
+  "allowed_tiers": ["starter", "performance", "pro"],
   "plan_name": "pro"
 }
 ```

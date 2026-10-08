@@ -321,7 +321,7 @@ class MachineConfig:
         """Create a MachineConfig from a tier specification.
 
         Args:
-            tier: Machine tier (starter, standard, performance)
+            tier: Machine tier (starter, performance, pro)
             image: Docker image to deploy
             health_check_path: Health check endpoint
             internal_port: Internal container port

@@ -255,7 +255,7 @@ runtm deploy
 
 ### Resource Requirements
 
-Fullstack apps run both Next.js and FastAPI simultaneously, requiring at least the standard tier (512MB RAM). The `runtm.yaml` is pre-configured with `tier: standard`.
+Fullstack apps run both Next.js and FastAPI simultaneously, which every tier supports (all have 2GB+ RAM). The `runtm.yaml` is pre-configured with `tier: starter`; use `performance` or `pro` for heavier workloads.
 
 ## Customization
 

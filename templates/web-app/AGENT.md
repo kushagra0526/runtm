@@ -39,7 +39,7 @@ Interactive UI + backend for real user workflows. Combines a Next.js frontend wi
 2. **DO NOT remove health endpoints** - `/health` must exist
 3. **DO NOT remove runtm.yaml** - Required for deployment
 4. **KEEP types in sync** - Pydantic models ↔ TypeScript types
-5. **MINIMUM tier: standard** - Fullstack apps need 512MB+ RAM (starter tier is rejected)
+5. **Tier: starter or higher** - Every tier has 2GB+ RAM, enough for Next.js + FastAPI (`standard` no longer exists)
 6. **ADD dependencies to PRODUCTION deps** - See "Adding Python Dependencies" below
 
 ## Project Structure
